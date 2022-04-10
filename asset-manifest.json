@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fsae2021-22/static/css/main.a91d8ba0.css",
+    "main.js": "/fsae2021-22/static/js/main.ca8a69a7.js",
+    "index.html": "/fsae2021-22/index.html",
+    "main.a91d8ba0.css.map": "/fsae2021-22/static/css/main.a91d8ba0.css.map",
+    "main.ca8a69a7.js.map": "/fsae2021-22/static/js/main.ca8a69a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a91d8ba0.css",
+    "static/js/main.ca8a69a7.js"
+  ]
+}
