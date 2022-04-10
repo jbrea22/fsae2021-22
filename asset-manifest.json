@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fsae2021-22/static/css/main.a91d8ba0.css",
-    "main.js": "/fsae2021-22/static/js/main.ca8a69a7.js",
+    "main.js": "/fsae2021-22/static/js/main.a5bf21cf.js",
     "index.html": "/fsae2021-22/index.html",
     "main.a91d8ba0.css.map": "/fsae2021-22/static/css/main.a91d8ba0.css.map",
-    "main.ca8a69a7.js.map": "/fsae2021-22/static/js/main.ca8a69a7.js.map"
+    "main.a5bf21cf.js.map": "/fsae2021-22/static/js/main.a5bf21cf.js.map"
   },
   "entrypoints": [
     "static/css/main.a91d8ba0.css",
-    "static/js/main.ca8a69a7.js"
+    "static/js/main.a5bf21cf.js"
   ]
 }
