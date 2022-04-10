@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/fsae2021-22/static/css/main.a91d8ba0.css",
-    "main.js": "/fsae2021-22/static/js/main.a5bf21cf.js",
+    "main.js": "/fsae2021-22/static/js/main.cce46bc2.js",
+    "static/media/AMSindicator.png": "/fsae2021-22/static/media/AMSindicator.dce804f3fba7d7a36667.png",
+    "static/media/BSPDindicator.png": "/fsae2021-22/static/media/BSPDindicator.c4eb2b584f364f727e98.png",
+    "static/media/IMDindicator.png": "/fsae2021-22/static/media/IMDindicator.70c039c96b44a23cc060.png",
     "index.html": "/fsae2021-22/index.html",
     "main.a91d8ba0.css.map": "/fsae2021-22/static/css/main.a91d8ba0.css.map",
-    "main.a5bf21cf.js.map": "/fsae2021-22/static/js/main.a5bf21cf.js.map"
+    "main.cce46bc2.js.map": "/fsae2021-22/static/js/main.cce46bc2.js.map"
   },
   "entrypoints": [
     "static/css/main.a91d8ba0.css",
-    "static/js/main.a5bf21cf.js"
+    "static/js/main.cce46bc2.js"
   ]
 }
