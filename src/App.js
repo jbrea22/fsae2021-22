@@ -5,8 +5,11 @@ import BTSpeedometer from './BTspeedometer';
 import MPHSpeedometer from './MPHspeedometer';
 import axios from 'axios';
 import React, { Component, } from 'react';
+import IMDimage from './dashboardIcons/IMDindicator.png';
+import BSPDimage from './dashboardIcons/BSPDindicator.png';
+import AMSimage from './dashboardIcons/AMSindicator.png';
 
-// IMPORTANT: faults can't be displayed until either dummy JSON or car data is passed to them
+// IMPORTANT: faults can't be displayed until either dummy JSON or LoggerS car data is passed to them
 
 class App extends Component{
   state={
@@ -25,10 +28,10 @@ class App extends Component{
   
   componentDidMount(){
     this.getData();
-    // the values update every 100 milliseconds
+    // the values update every 100 milliseconds. It's temporarily set to a large number
     this.interval = setInterval(this.getData, 1000000000);
 
-    // right here are fault conditionals:
+    // below are fault conditionals:
     /* if(showHideAMS==true){
           return <AMSIndicator />
      }
@@ -83,9 +86,9 @@ class App extends Component{
         title="BATTERY"
         />
 
-        <img src="../dashboard icons/BSPDindicator.png" alt="BSPD indicator"/>
-        <img src="../dashboard icons/IMDindicator.png" alt="IMD indicator"/>
-        <img src="../dashboard icons/AMSindicator.png" alt="AMS indicator"/>
+        <img src={BSPDimage} alt="BSPD indicator"/>
+        <img src={IMDimage} alt="IMD indicator"/>
+        <img src={AMSimage} alt="AMS indicator"/>
         
     </div>
     </div>
