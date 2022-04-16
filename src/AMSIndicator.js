@@ -1,11 +1,12 @@
 import React from 'react';
+import AMSimage from './dashboardIcons/AMSindicator.png';
 
-const AMSFaultSymbolDisplay = ({id}) => {
-    return (
-        <div>
-          <img src="../dashboard icons/AMSfaultsymbol.png"/>
-        </div>
-      );
-    };
+const AMSIndicator = () => {
+  return (
+    <div>
+      <img src={AMSimage} alt="AMS indicator"/>
+    </div>
+  );
+};
     
-    export default AMSFaultSymbolDisplay;
+export default AMSIndicator;

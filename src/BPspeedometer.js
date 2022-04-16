@@ -45,10 +45,10 @@ const BPSpeedometer = ({ id, value, title}) => {
       );
     };
     
-    export default BPSpeedometer;
+export default BPSpeedometer;
 
-    /* Note: the file is named BPspeedometer.js, but
-    the speedometer object is named BPSpeedometer
-    The difference is the capital 'S' */ 
+/* Note: the file is named BPspeedometer.js, but
+the speedometer object is named BPSpeedometer
+The difference is the capital 'S' */ 
 
-    // BP = Battery Power
+// BP = Battery Power

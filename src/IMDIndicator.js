@@ -1,11 +1,12 @@
 import React from 'react';
+import IMDimage from './dashboardIcons/IMDindicator.png';
 
 const IMDIndicator = () => {
-    return (
-        <div>
-          <img src="../dashboard icons/IMDindicator.png"/>
-        </div>
-      );
-    };
+  return (
+    <div>
+      <img src={IMDimage} alt="IMD indicator"/>
+    </div>
+  );
+};
     
-    export default IMDIndicator;
+export default IMDIndicator;

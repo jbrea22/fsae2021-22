@@ -55,8 +55,8 @@ const Tachometer = ({ id, value, title, title2}) => {
       );
     };
     
-    export default Tachometer;
+export default Tachometer;
 
-    /* Note: the file is named tachometer.js, but
-    the speedometer object is named Tachometer. 
-    The difference is the capital 'T' */
+/* Note: the file is named tachometer.js, but
+the speedometer object is named Tachometer. 
+The difference is the capital 'T' */

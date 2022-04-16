@@ -57,8 +57,6 @@ class App extends Component{
       <Tachometer
         id="dial1"
         value={this.state.persons.map(person => (person.id))}
-        /* onChange={(e) => this.setState({ persons: e.currentTarget.value })}
-           only works for inputs, so it wouldn't work with this gauge */
         title="RPM"
         title2="x1000"
         />
@@ -71,13 +69,13 @@ class App extends Component{
 
         <BTSpeedometer
         id="dial3"
-        value={205}
+        value={110}
         title="BATTERY TEMP"
         />
 
         <BTSpeedometer
         id="dial4"
-        value={225}
+        value={125}
         title="ENGINE TEMP"
         />
 
@@ -96,9 +94,6 @@ class App extends Component{
   );
 }
 }
-/* useEffect needs to be outside of the class because hooks don't work
-inside classes. If ditching the class completely, then useState and
-useEffect both need to be called inside function App() */
 
 export default App;
 

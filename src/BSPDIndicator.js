@@ -1,11 +1,12 @@
 import React from 'react';
+import BSPDimage from './dashboardIcons/BSPDindicator.png';
 
-const BSFaultSymbolDisplay = ({id}) => {
-    return (
-        <div>
-          <img src="../dashboard icons/AMSfaultsymbol.png"/>
-        </div>
-      );
-    };
+const BSPDIndicator = () => {
+  return (
+    <div>
+      <img src={BSPDimage} alt="BSPD indicator"/>
+    </div>
+  );
+};
     
-    export default AMSFaultSymbolDisplay;
+export default BSPDIndicator;

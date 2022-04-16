@@ -29,7 +29,7 @@ const BTSpeedometer = ({ id, value, title}) => {
         <div style={styles.dial}>
           <ReactSpeedometer
             minValue={0}
-            maxValue={300}
+            maxValue={200}
             value={value}
             width={150}
             needleHeightRatio={.73}
@@ -47,10 +47,10 @@ const BTSpeedometer = ({ id, value, title}) => {
       );
     };
     
-    export default BTSpeedometer;
+export default BTSpeedometer;
 
-    /* Note: the file is named BTspeedometer.js, but
-    the speedometer object is named BTSpeedometer
-    The difference is the capital 'S' */ 
+/* Note: the file is named BTspeedometer.js, but
+the speedometer object is named BTSpeedometer
+The difference is the capital 'S' */ 
 
-    // BT = Battery Temp
+// BT = Battery Temp
