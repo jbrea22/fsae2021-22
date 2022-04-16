@@ -31,7 +31,6 @@ class App extends Component{
     // the values update every 100 milliseconds. It's temporarily set to a large number
     this.interval = setInterval(this.getData, 10000000000);
     
-
     // below are fault conditionals:
     /* if(showHideAMS==true){
           return <AMSIndicator />
