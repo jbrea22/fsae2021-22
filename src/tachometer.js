@@ -9,17 +9,26 @@ const styles = {
     height: `auto`,
     color: "#000",
     border: "0.5px solid #fff",
-    padding: "2px"
+    padding: "2px",
+    position: "relative",
+    top:"-20px",
+
   },
   title: {
     fontSize: "1em",
     color: "#000",
     fontWeight: "bold",
+    position: "relative",
+    top: "-125px",
+    left: "20px",
   },
   title2: {
     fontSize: ".7em",
     color: "#000",
     fontWeight: "bold",
+    position: "relative",
+    top: "-125px",
+    left: "20px",
   }
 };
 

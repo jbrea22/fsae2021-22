@@ -9,12 +9,18 @@ const styles = {
     width: `300px`,
     height: `auto`,
     color: "#000",
-    padding: "2px"
+    padding: "2px",
+    position: "relative",
+    top: "-31px",
+
   },
   title: {
     fontSize: ".7em",
     color: "#000",
     fontWeight: "bold",
+    position: "relative",
+    top: "-200px",
+    left: "1px"
   }
 };
 

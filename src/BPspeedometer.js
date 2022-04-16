@@ -9,11 +9,17 @@ const styles = {
     height: `auto`,
     color: "#000",
     padding: "2px",
+    position: "relative",
+    top: "-30px",
+
   },
   title: {
     fontSize: ".7em",
     color: "#000",
     fontWeight: "bold",
+    position: "relative",
+    top: "-200px",
+    left: "24px"
   }
 };
 

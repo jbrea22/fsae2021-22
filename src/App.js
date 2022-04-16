@@ -29,7 +29,8 @@ class App extends Component{
   componentDidMount(){
     this.getData();
     // the values update every 100 milliseconds. It's temporarily set to a large number
-    this.interval = setInterval(this.getData, 1000000000);
+    this.interval = setInterval(this.getData, 10000000000);
+    
 
     // below are fault conditionals:
     /* if(showHideAMS==true){
@@ -40,8 +41,8 @@ class App extends Component{
      }
      if(showHideBSPD==true){
           return <BSPDIndicator />
-     } */
-
+     } 
+*/
     }
   
   componentWillUnmount(){

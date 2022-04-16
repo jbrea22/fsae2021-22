@@ -16,9 +16,14 @@
 
 .App .title {
   margin: 40px;
+  position: relative;
+  height: -50px;
 }
 
 img{
   height: 60px;  
   margin: 2px;
+  position: relative;
+  top: 100px;
+  left: -1100px;
 }
